@@ -6,11 +6,8 @@ using Unity.IO;
 
 public class GameMenu : MonoBehaviour
 {
-  
-    public GameObject panalSettings;
-
-
-    void Start()
+      public GameObject panalSettings;
+        void Start()
     {
         if (panalSettings != null)
             panalSettings.SetActive(false);
